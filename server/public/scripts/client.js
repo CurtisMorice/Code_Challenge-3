@@ -1,8 +1,8 @@
-var app = angular.module('antaresApp', []);
+var app = angular.module('denebApp', []);
 
 /** ---- CONTROLLER HERE ---- **/
-app.controller('AntaresController', function(){
+app.controller('DenebController', function(){
   // atares is an array of student names
-  console.log(antares);
+  console.log(deneb);
   // @TODO: Write your controller code in here
 });
