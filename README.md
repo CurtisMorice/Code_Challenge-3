@@ -8,7 +8,7 @@ When the page first loads, the user sees a "Display Students" button, but it has
 
 ## TODO
 
-When the "Display Students" button is clicked, display the array of Deneb students as a list (i.e. use `<li>` to display each student).
+When the "Display Students" button is clicked, display the array of students as a list (i.e. use `<li>` to display each student).
 
 **IMPORTANT:** Look at the comments in *index.html* and *client.js* to see where to write your code. The data array is currently being stored in *data.js*.
 

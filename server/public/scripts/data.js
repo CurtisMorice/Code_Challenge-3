@@ -1,4 +1,4 @@
-var deneb = [
+var studentList = [
   'Aaron',
   'Alex',
   'Blaze',
