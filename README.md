@@ -18,10 +18,8 @@ It will look like [this mockup](https://ninjastorage.blob.core.windows.net/html/
 
 Start by thinking about how you will bring the data into the HTML. Consider starting by getting your data to display on the page before implementing the show students functionality.
 
-## Hard Mode
-
-Add a button that reverses the sorting for the list (A - Z to Z - A) and back.
-
-## Pro Mode
+## Stretch Goals
 
 Move the list of students to the server and make a `$http` request for the data. **Commit your code before attempting this!** It's better to have a fully functional base mode than a partially complete pro mode.
+
+Add a button that reverses the sorting for the list (A - Z to Z - A) and back.
