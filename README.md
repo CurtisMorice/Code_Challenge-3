@@ -20,6 +20,6 @@ Start by thinking about how you will bring the data into the HTML. Consider star
 
 ## Stretch Goals
 
-Move the list of students to the server and make a `$http` request for the data. **Commit your code before attempting this!** It's better to have a fully functional base mode than a partially complete pro mode.
+Move the list of students to the server and make a `$http` request for the data. **Commit your code before attempting this!** It's better to have a fully functional base mode than a partially complete stretch mode.
 
 Add a button that reverses the sorting for the list (A - Z to Z - A) and back.
