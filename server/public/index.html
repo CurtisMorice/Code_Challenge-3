@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Code Challenge 4: Angular</title>
     <script src="vendor/angular.min.js"></script>
@@ -8,22 +9,26 @@
     <script src="scripts/client.js"></script>
     <link rel="stylesheet" href="/styles/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Satisfy" rel="stylesheet">
-  </head>
-  <body ng-app="StudentApp">
-    <div class="container">
-      <header>
-        <h1 class="text-center">Class list!</h1>
-      </header>
-      <div class="text-center">
-        <!-- On button click, display list of students -->
-        <button class="btn">Display Students</button>
-      </div>
-      <div>
-        <!-- List of students -->
-      </div>
-      <footer>
-        <p class="text-center">Comparison is the thief of joy</p>
-      </footer>
+</head>
+
+<body ng-app="StudentApp">
+    <div ng-controller="StudentController as SC">
+        <div class="container">
+            <header>
+                <h1 class="text-center">Class list!</h1>
+            </header>
+            <div class="text-center" ng-model="SC.classList">
+                <!-- On button click, display list of students -->
+                <button class="btn" ng-click="SC.addClassList(index)">Display Students</button>
+            </div>
+            <div ng-repeat="list in SC.studentList">
+                <li>{{list}}</li>
+            </div>
+            <footer>
+                <p class="text-center">Comparison is the thief of joy</p>
+        </div>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
